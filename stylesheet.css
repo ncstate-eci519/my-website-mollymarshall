@@ -6,7 +6,7 @@ h1{
 }
 h2{
     font-family: 'Pacifico', cursive;
-    font-size: 24px;
+    font-size: 30px;
 }
 h3{
     font-family: 'Pacifico', cursive;
@@ -14,10 +14,10 @@ h3{
 .foodname{
     font-family: 'Pacifico', cursive;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 26px;
 }
 .longtext{
     font-family: 'Arimo', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
 }
 .color-2 {color: #f2aab4;}
