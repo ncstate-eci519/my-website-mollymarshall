@@ -2,9 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 h1{
     font-family: 'Pacifico', cursive;
+    font-size: 48px;
 }
 h2{
     font-family: 'Pacifico', cursive;
+    font-size: 24px;
 }
 h3{
     font-family: 'Pacifico', cursive;
@@ -12,7 +14,7 @@ h3{
 .foodname {
     font-family: 'Pacifico', cursive;
     font-weight: bold;
-    font-size: medium;
+    font-size: 18px;
 }
 
 .color-2 {color: #f2aab4;}
