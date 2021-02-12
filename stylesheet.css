@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 h1{
     font-family: 'Pacifico', cursive;
     font-size: 48px;
@@ -17,7 +17,7 @@ h3{
     font-size: 18px;
 }
 .longtext{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Fjalla One', sans-serif;
     font-size: 15px;
 }
 .color-2 {color: #f2aab4;}
