@@ -21,4 +21,8 @@ h3{
     font-size: 35px;
 }
 .color-2 
-h1{color: #f2aab4;}
+{color: #f2aab4;}
+ul{
+    padding-left: 2rem;
+    list-style-type: none;
+  }
