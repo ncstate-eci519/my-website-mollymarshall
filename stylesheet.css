@@ -30,7 +30,7 @@ li{
     padding-left: 2rem;
     list-style-type: none;
 }
-button{
+.button{
     background-color:  #f2aab4; 
     color: white ;
     text decoration: none ;
