@@ -11,6 +11,10 @@ h2{
 h3{
     font-family: 'Pacifico', cursive;
 }
+.foodtype{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
 .foodname{
     font-family: 'Pacifico', cursive;
     font-weight: bold;
@@ -36,4 +40,10 @@ li{
     text decoration: none ;
     padding: 10px ;
     border: 3px solid #000000 ;
+    margin:auto ;
+    text-align: center ;
+    display: block ;
+    width: 25% ;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
 }
