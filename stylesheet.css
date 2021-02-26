@@ -65,6 +65,9 @@ th{
 @media (prefers-color-scheme: dark){
 	html{
 		background-color: black;
-		color: white;
-	}
+        color: white;
+    }
+    a{
+        color:violet; 
+    }
 }
