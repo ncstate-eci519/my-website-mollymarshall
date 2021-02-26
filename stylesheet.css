@@ -62,3 +62,9 @@ th{
     width: 50%;
     height: auto;
 }
+@media (prefers-color-scheme: dark){
+	html{
+		background-color: black;
+		color: white;
+	}
+}
