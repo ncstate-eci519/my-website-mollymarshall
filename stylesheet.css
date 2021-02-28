@@ -63,8 +63,9 @@ th{
     width: 50%;
     height: auto;
 }
-.alert-link{
-    text-align: center;
+.aboutmeimage{
+    width: 35% ;
+    height: auto ;
 }
 @media (prefers-color-scheme: dark){
 	body{
