@@ -85,4 +85,9 @@ th{
         color:thistle;
     }
     a{
-        color:violet; }
+        color:violet; 
+    }
+form{
+        padding-left: 50px;
+        padding-right: 50px
+}
