@@ -75,9 +75,9 @@ th{
     height: auto ;
 }
 .contactimage{
-    vertical-align: center;
-    padding-left: 550px;
-    padding-right: 250px;
+    width:50% ;
+    height: auto; 
+    margin: auto; 
 }
 .aboutmewords{
     vertical-align: center;
