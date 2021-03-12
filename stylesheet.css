@@ -73,6 +73,11 @@ th{
     width: 25% ;
     height: auto ;
 }
+.contactimage{
+    vertical-align: center;
+    padding-left: 550px;
+    padding-right: 250px;
+}
 .aboutmewords{
     vertical-align: center;
     text-align: center;
@@ -93,21 +98,9 @@ th{
     a{
         color:violet; 
     }
-.form-group{
+.formpadding{
         padding-left: 150px;
         padding-right: 150px;
+        font-family: 'Arimo', sans-serif;
+        text-align: left;
 }
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
