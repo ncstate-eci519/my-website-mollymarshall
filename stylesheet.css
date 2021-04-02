@@ -15,7 +15,7 @@ h3{
 .foodtype{
     font-family: 'Pacifico', cursive;
     font-size: 50px;
-    color: #f2aab4 ;
+    color: #872242 ;
 }
 .foodname{
     font-family: 'Pacifico', cursive;
@@ -33,7 +33,7 @@ h3{
         padding-right: 25px;
 }
 .color-2 
-{color: #f2aab4;}
+{color: #872242;}
 ul{
     padding-left: 2rem;
     list-style-type: none;
@@ -43,7 +43,7 @@ li{
     list-style-type: none;
 }
 .button{
-    background-color:  #f2aab4; 
+    background-color:  #872242; 
     color: white ;
     text-decoration: none ;
     padding: 10px ;
@@ -71,7 +71,7 @@ th{
     margin: auto;
 }
 .aboutmeimage{
-    width: 25% ;
+    width: 70% ;
     height: auto ;
 }
 .contactimage{
@@ -82,7 +82,7 @@ th{
 .aboutmewords{
     vertical-align: center;
     text-align: center;
-    color:#f2aab4; 
+    color:#872242; 
     font-family: 'Arimo', sans-serif;
     font-size: 20px ;
     padding-left: 250px;
@@ -99,9 +99,23 @@ th{
     a{
         color:violet; 
     }
+}
 .formpadding{
         padding-left: 150px;
         padding-right: 150px;
         font-family: 'Arimo', sans-serif;
         text-align: left;
+}
+.halfwidth{
+    width: 35% ;
+    margin:auto ;
+}
+
+.solid-background{
+    background-color: #872242;
+    padding: 5px;
+}
+
+.hidden{
+    display: none;
 }
