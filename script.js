@@ -1,10 +1,10 @@
 $(document).ready(function(){
-  $('#date').datepicker({
-    format: 'mm/dd/yyyy',
-    startDate: '-3d'
+    $('#date').datepicker({
+      format: 'mm/dd/yyyy',
+      startDate: '-3d'
   });
 
-    $("#cat-button").click(function(){
+   $("#cat-button").click(function(){
         //Execute the API call.
         var cat = $.get("https://api.thecatapi.com/v1/images/search");
         console.log(cat);
@@ -18,6 +18,7 @@ $(document).ready(function(){
           //Set the SRC of the image to the 
           $("#cat-img").attr("src", catData.url);
         });
+      
       });
 
     $("#phone").change(function(){
@@ -49,5 +50,11 @@ $(document).ready(function(){
         //Toggles the visibility for the card with the form in it.
         $("#ordersuccessful").show();
       });
-
   });
+  
+  });
+  $("form").submit(function(){
+    event.preventDefault();
+    var webform = $.post(https://maker.ifttt.com/trigger/{order_submitted}/with/key/fuYDfhBovQbwNDLJViELuOS2Q4QTGx2aadypLDRx_sI  ,
+       JSON.strinify({"value1" : $("firstname").val , "value2" : $("lastname").val() , "value3" : $("email").val() 
+  }) );
