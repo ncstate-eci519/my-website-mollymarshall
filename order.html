@@ -35,22 +35,22 @@
 		  </nav>
 		  <h1><img src="images/round_logo.png" alt="Logo with two M's" style="width: 5%; height: auto;" />Miss Molly's Good Eats<img src="images/round_logo.png" alt="Logo with two M's" style="width: 5%; height: auto;" /></h1>
 	<div class="container">
-	<form>
+	<form action="https://formspree.io/f/xleadzyn" method="POST">
 		<div class="form-group">
 		  	<label for="firstname">First Name</label>
-		  	<input type="text" class="form-control" id="firstname">
+		  	<input type="text" class="form-control" id="firstname" name="firstname">
 		</div>
 		<div class="form-group">
 		  	<label for="lastname">Last Name</label>
-		  	<input type="text" class="form-control" id="lastname" >
+		  	<input type="text" class="form-control" id="lastname" name="lastname" >
 		</div>
 		<div class="form-group">
 		  	<label for="email">Email Address</label>
-		  	<input type="email" class="form-control" id="email" >
+		  	<input type="email" class="form-control" id="email" name="email" >
 		</div>
 		<div class="form-group">
 		  	<label for="phone">Phone Number</label>
-		  	<input type="text" class="form-control" id="phone" >
+		  	<input type="text" class="form-control" id="phone" name="phone" >
 			  <div id="phone-valid" class="valid-feedback">
 				This is a number!
 			  </div>
@@ -63,7 +63,7 @@
 		</div> 
 		<div class="form-group">
 			<label for="date">Date</label>
-			<input type="text" class="datepicker form-control" id="date">
+			<input type="text" class="datepicker form-control" id="date" name= "date">
 		</div>
 		  <table>
 			<thead>
@@ -84,7 +84,7 @@
 					</div>
 							<div class="form-group">
 							<label class="d-inline-block" for="choc-oat-quantity">Amount</label>
-							<select class="form-control form-control-sm d-inline-block" style="width: auto;" id="choc-oat-quantity">
+							<select class="form-control form-control-sm d-inline-block" style="width: auto;" id="choc-oat-quantity" name="choc-oat-quantity">
 								  <option selected>Choose...</option>
 								  <option value="1">1 Dozen</option>
 								  <option value="2">2 Dozen</option>
@@ -109,7 +109,7 @@
 					</div>
 							<div class="form-group">
 							<label class="d-inline-block" for="CBR-quantity">Amount</label>
-							<select class="form-control form-control-sm d-inline-block" style="width: auto;" id="CBR-quantity">
+							<select class="form-control form-control-sm d-inline-block" style="width: auto;" id="CBR-quantity" name="CBR-quantity">
 								  <option selected>Choose...</option>
 								  <option value="1">8 Ounces (1 serving) </option>
 								  <option value="2">16 Ounces (2 servings)</option>
@@ -130,7 +130,7 @@
 					</div>
 							<div class="form-group">
 							<label class="d-inline-block" for="kisses-quantity">Amount</label>
-							<select class="form-control form-control-sm d-inline-block" style="width: auto;" id="kisses-quantity">
+							<select class="form-control form-control-sm d-inline-block" style="width: auto;" id="kisses-quantity" name="kisses-quantity">
 								  <option selected>Choose...</option>
 								  <option value="1">1 Dozen</option>
 								  <option value="2">2 Dozen</option>
@@ -155,7 +155,7 @@
 					</div>
 							<div class="form-group">
 							<label class="d-inline-block" for="chilli-quantity">Amount</label>
-							<select class="form-control form-control-sm d-inline-block" style="width: auto;" id="chilli-quanitity">
+							<select class="form-control form-control-sm d-inline-block" style="width: auto;" id="chilli-quanitity" name="chilli-quanitity">
 								  <option selected>Choose...</option>
 								  <option value="1">8 Ounces (1 serving) </option>
 								  <option value="2">16 Ounces (2 servings)</option>
@@ -177,7 +177,7 @@
 					  </div>
 							<div class="form-group">
 							<label class="d-inline-block" for="reesebites-quantity">Amount</label>
-							<select class="form-control form-control-sm d-inline-block" style="width: auto;" id="reesebites-quantity">
+							<select class="form-control form-control-sm d-inline-block" style="width: auto;" id="reesebites-quantity" name="reesebites-quantity">
 								  <option selected>Choose...</option>
 								  <option value="1">1 Dozen</option>
 								  <option value="2">2 Dozen</option>
@@ -202,7 +202,7 @@
 					  </div>
 						<div class="form-group">
 							<label class="d-inline-block" for="mexchic-quantity">Amount</label>
-							<select class="form-control form-control-sm d-inline-block" style="width: auto;" id="mexchic-quantity">
+							<select class="form-control form-control-sm d-inline-block" style="width: auto;" id="mexchic-quantity" name="mexchic-quantity">
 							  <option selected>Choose...</option>
 							  <option value="1">8 Ounces (1 serving) </option>
 							  <option value="2">16 Ounces (2 servings)</option>
@@ -222,7 +222,7 @@
 					  </div>
 							<div class="form-group">
 							<label class="d-inline-block" for="sbb-muffin-quantity">Amount</label>
-							<select class="form-control form-control-sm d-inline-block" style="width: auto;" id="sbb-muffin-quantity">
+							<select class="form-control form-control-sm d-inline-block" style="width: auto;" id="sbb-muffin-quantity" name="sbb-muffin-quantity">
 								  <option selected>Choose...</option>
 								  <option value="1">1 Dozen</option>
 								  <option value="2">2 Dozen</option>
@@ -248,7 +248,7 @@
 					  </div>	
 					<div class="form-group">
 						<label class="d-inline-block" for="buttery-chicken-quantity">Amount</label>
-						<select class="form-control form-control-sm d-inline-block" style="width: auto;" id="buttery-chicken-quantity">					id="inlineFormCustomSelectPref">
+						<select class="form-control form-control-sm d-inline-block" style="width: auto;" id="buttery-chicken-quantity" name="buttery-chicken-quantity">					id="inlineFormCustomSelectPref">
 							  <option selected>Choose...</option>
 							  <option value="1">8 Ounces (1 serving) </option>
 							  <option value="2">16 Ounces (2 servings)</option>
@@ -260,16 +260,12 @@
 			  </tr>
 			</tfoot>
 		  </table>
-	</form>  
-	<form>
 		<div class="form-group">
 			<label for="specialrequests">Special Requests</label>
 			<input type="text" class="form-control" id="specialrequests">
 		</div>
+		<button class="btn btn-primary my-1" id="submitbutton">Submit</button>
 	</form> 
-<form class="form-inline">  
-		<button type="button" class="btn btn-primary my-1" id="submitbutton">Submit</button>
-</form>
 
 
 

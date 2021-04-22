@@ -45,16 +45,4 @@ $(document).ready(function(){
         }
        
     });
-
-    $("#submitbutton").click(function(){
-        //Toggles the visibility for the card with the form in it.
-        $("#ordersuccessful").show();
-      });
   });
-  
-  });
-  $("form").submit(function(){
-    event.preventDefault();
-    var webform = $.post(https://maker.ifttt.com/trigger/{order_submitted}/with/key/fuYDfhBovQbwNDLJViELuOS2Q4QTGx2aadypLDRx_sI  ,
-       JSON.strinify({"value1" : $("firstname").val , "value2" : $("lastname").val() , "value3" : $("email").val() 
-  }) );
