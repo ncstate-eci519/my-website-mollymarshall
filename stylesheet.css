@@ -15,6 +15,10 @@ h2{
 h3{
     font-family: 'Pacifico', cursive;
 }
+a{
+    color:black; 
+    text-decoration: none;
+}
 .foodtype{
     font-family: 'Pacifico', cursive;
     font-size: 50px;
