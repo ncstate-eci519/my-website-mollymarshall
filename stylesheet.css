@@ -19,7 +19,7 @@ a{
     color:black; 
     text-decoration: none;
 }
-.submitbutton{
+#submitbutton{
    background-color: #872242;
    color: white; 
 }
@@ -143,4 +143,7 @@ th{
     padding-left: 400px;
     background-color: white;
     color: black; 
+}
+.navbar-light .navbar-brand,.bg-light{
+    background-color: white !important;
 }
